@@ -1,11 +1,10 @@
 {
   "id": "liferay",
   "image": "wedeploy/lms-liferay-dxp:7.0.0-sp7-fp49-1.8",
-  "memory": 4096,
-  "cpu": 3,
+  "memory": 8192,
+  "cpu": 8,
   "dependencies": ["db", "es"],
   "volumes": {
-    "data": "/opt/liferay/data",
-    "osgi": "/opt/liferay/osgi"
+    "data": "/opt/liferay/data"
   }
 }
